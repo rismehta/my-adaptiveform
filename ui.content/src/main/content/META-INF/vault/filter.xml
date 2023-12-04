@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/my-adaptiveform" mode="merge"/>
+    <filter root="/content/my-adaptiveform" mode="merge"/>
+    <filter root="/content/dam/my-adaptiveform" mode="merge">
+        <exclude pattern="/content/dam/my-adaptiveform(/.*)?"/>
+        <include pattern="/content/dam/my-adaptiveform/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/my-adaptiveform/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/my-adaptiveform" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/my-adaptiveform" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/my-adaptiveform" mode="merge"/>
+    <filter root="/content/dam/my-adaptiveform/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/my-adaptiveform/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/my-adaptiveform/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
